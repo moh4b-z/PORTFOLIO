@@ -6,7 +6,7 @@
 
 
 body {
-    background: #1f1629;
+    background: #1b212b;
 }
 
 body, ul, li, p {
@@ -34,7 +34,7 @@ a {
     align-items: center;
     padding: 20px;
     border: 2px solid; 
-    border-color: #f3c22fea; 
+    border-color: #cfcac4; 
     height: 15vh;    
 }
 
@@ -143,7 +143,7 @@ nav li a:hover{
 .contatos ion-icon{
     height: 30px;
     width: 30px;
-    color: #ff00eabe; 
+    color: #95c8e1; 
 }
 
 
@@ -157,7 +157,7 @@ nav li a:hover{
     margin: 10px;
     background-color: #1f1629;
     border: 1px solid; 
-    border-color: #ff00eabe; 
+    border-color: #5792df; 
     position: absolute;
     right: 0;
     color: white;
@@ -172,10 +172,16 @@ nav li a:hover{
     width: 30px;
 }
 
+.list-liguagens a{
+    display: flex;
+    align-items: center;
+
+}
 
 
+/*###  LIGUAGENS FIM  ###*/
+/*###  LIGUAGENS FIM  ###*/
+/*###  LIGUAGENS FIM  ###*/
+/*###  LIGUAGENS FIM  ###*/
 
-/*###  LIGUAGENS FIM  ###*/
-/*###  LIGUAGENS FIM  ###*/
-/*###  LIGUAGENS FIM  ###*/
-/*###  LIGUAGENS FIM  ###*/
+
