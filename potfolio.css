@@ -26,110 +26,37 @@ a {
 
 
 .header {
-    margin: 2px;
-    background: #191023;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border: 2px solid; 
-    border-color: #cfcac4; 
-    height: 15vh;    
+    margin: 2px;  
 }
 
-.menu {
-    display: flex;
-}
-.menu li{
-    margin-left: 10px;
-    align-items: center; /* Alinhar verticalmente */
-}
+/* Adicione suas regras de estilo aqui */
 
-.menu li a {
-    display: flex;
-    padding: 10px;
+/* Defina a paleta de cores */
+:root {
+    --cor-primaria: #99cee6;
+    --cor-secundaria: #375899;
 }
 
-
-nav li a:hover{
-    background-color: #002838ea;
-    border-radius: 4px;
+#titulo {
+    font-size: 36px;
+    animation: mudarCor 5s infinite;
 }
 
-/*###  BOTÃO MENU  ###*/
-/*###  BOTÃO MENU  ###*/
-/*###  BOTÃO MENU  ###*/
-/*###  BOTÃO MENU  ###*/
-
-.menu-re {
-    display: none;
-    cursor: pointer;
+@keyframes mudarCor {
+    0% {
+        color: var(--cor-primaria);
+    }
+    50% {
+        color: var(--cor-secundaria);
+    }
+    100% {
+        color: var(--cor-primaria);
+    }
 }
 
 
-@media (max-width: 1225px){
-   
 
-    .menu {
-        display: block;
-        position: absolute;
-        width: 100%;
-        top: 21vh;
-        right: 0px;
-        background: #000f1f;
-        height: 0px;
-        transition: 0.5s;
-        z-index: 1000;
-        visibility: hidden;
-        overflow-y: hidden;
 
-    }
-    #nav.active #menu{
-        height: 79vh;
-        visibility: visible;
-        overflow-y: auto;
-    }
-
-    .menu a {
-        padding: 1rem 0;
-        margin: 5vh;
-        border-bottom: 5px;
-    }
-
-    #btn-menu {
-        display: flex;
-        cursor: pointer;
-        border: none;
-        background: none;
-    }
-    #icon-menu {
-        color: #e7b623;
-        border-top: 3px solid;
-        width: 32px;
-    }
-    #icon-menu::after, #icon-menu::before {
-        content: '';
-        display: block;
-        width: 32px;
-        height: 3px;
-        background: currentColor;
-        margin-top: 5px;
-        transition: 0.3s;
-        position: relative;
-    }
-    #nav.active #icon-menu {
-        border-top-color: transparent;
-    }
-    #nav.active #icon-menu::before {
-        transform: rotate(135deg);
-    }
-    #nav.active #icon-menu::after {
-        transform: rotate(-135deg);
-        top: -7px;
-    }
-
-}
 /*###  BOTÃO MENU FIM  ###*/
 /*###  BOTÃO MENU FIM  ###*/
 /*###  BOTÃO MENU FIM  ###*/
@@ -146,6 +73,10 @@ nav li a:hover{
     color: #95c8e1; 
 }
 
+.contatos ion-icon:hover{
+    transform: scale(1.3);
+}
+
 
 /*###  LIGUAGENS  ###*/
 /*###  LIGUAGENS  ###*/
@@ -155,7 +86,7 @@ nav li a:hover{
 
 .liguagens {
     margin: 10px;
-    background-color: #1f1629;
+    background-color: transparent;
     border: 1px solid; 
     border-color: #5792df; 
     position: absolute;
@@ -163,6 +94,14 @@ nav li a:hover{
     color: white;
     padding: 10px;
     border-radius: 5px;
+    transition: 0.2s;
+
+}
+
+.liguagens:hover {
+    box-shadow: 0px 0px 5px 4px #98cde6, inset 0px 0px 5px 4px #98cde6;
+    transform: scale(1.05);
+ 
 
 }
 
