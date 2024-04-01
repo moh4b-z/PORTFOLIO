@@ -7,6 +7,7 @@
 
 body {
     background: #1b212b;
+    overflow-x: hidden; /* Impede que o conteúdo saia dos limites laterais da tela */
 }
 
 body, ul, li, p {
@@ -37,9 +38,9 @@ a {
     --cor-secundaria: #375899;
 }
 
-#titulo {
+h1 {
     font-size: 36px;
-    animation: mudarCor 5s infinite;
+    animation: mudarCor 3s infinite;
 }
 
 @keyframes mudarCor {
@@ -56,6 +57,43 @@ a {
 
 
 
+.comeco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.comeco img {
+    max-width: 100%;
+}
+  
+.comeco .ancoras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.comeco .ancoras li {
+    margin: 0 10px;
+}
+  
+.comeco .ancoras a {
+    text-decoration: none;
+}
+  
+.ancoras {
+    display: flex;
+    margin: 5px;
+}
+
+.ancoras a{
+    display: flex;
+    margin: 5px;
+}
+
+
 
 /*###  BOTÃO MENU FIM  ###*/
 /*###  BOTÃO MENU FIM  ###*/
@@ -70,7 +108,9 @@ a {
 .contatos ion-icon{
     height: 30px;
     width: 30px;
-    color: #95c8e1; 
+    color: #95c8e1;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 .contatos ion-icon:hover{
@@ -124,3 +164,52 @@ a {
 /*###  LIGUAGENS FIM  ###*/
 
 
+
+
+/*###  SOBRE  ###*/
+/*###  SOBRE  ###*/
+/*###  SOBRE  ###*/
+/*###  SOBRE  ###*/
+
+#Sobre {
+    margin-left: 30px;
+}
+#Sobre p{
+    color: aliceblue;
+    max-width: 600px; 
+    padding: 5px 20px; 
+}
+
+/*###  SOBRE FIM  ###*/
+/*###  SOBRE FIM  ###*/
+/*###  SOBRE FIM  ###*/
+/*###  SOBRE FIM  ###*/
+
+
+
+
+/*###  Projetos  ###*/
+/*###  Projetos  ###*/
+/*###  Projetos  ###*/
+/*###  Projetos  ###*/
+
+#Projetos {
+    margin-left: 30px;
+
+}
+
+#Projetos p{
+    color: aliceblue;
+    max-width: 600px;
+    padding: 5px 20px; 
+}
+
+.texto {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/*###  Projetos FIM  ###*/
+/*###  Projetos FIM  ###*/
+/*###  Projetos FIM  ###*/
+/*###  Projetos FIM  ###*/
