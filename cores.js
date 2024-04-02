@@ -12,4 +12,4 @@ function alternarCores() {
 }
 
 // Chama a função para alternar cores em intervalos regulares
-setInterval(alternarCores, 3000); // Altera a cor a cada 5 segundos
+setInterval(alternarCores, 3000); // Altera a cor a cada 3 segundos

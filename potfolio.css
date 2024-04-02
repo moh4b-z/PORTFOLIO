@@ -7,7 +7,9 @@
 main {
     margin-bottom: 30px;
 }
-
+ button {
+    cursor: pointer;
+ }
 
 body {
     background: #1a1228;
@@ -42,7 +44,7 @@ a {
     --cor-secundaria: #244992;
 }
 
-h1,h3 {
+h1,h3, .tegs button.clicked {
     font-size: 36px;
     margin: 10px;
     animation: mudarCor 3s infinite;
@@ -197,6 +199,78 @@ h3 {
 /*###  SOBRE FIM  ###*/
 
 
+
+.barra::placeholder {
+    font-size: 20px; 
+    color: gray; 
+    opacity: 1; 
+}
+
+.SistemasDeBusca {
+    background: #00152bc2;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.barra {
+    border: none;
+    background: #001327c2;
+    outline: none;
+    padding: 3px 0;
+    color: #ffffff;
+    font-size: 20px;
+    width: 400px;
+    transition: 0.5s;
+    padding-left: 20px;
+    border: 2px solid #99cee6;
+}
+
+.SistemasDeBusca {
+    position: relative; /* Para definir um contexto de posicionamento */
+    /* Restante do seu CSS existente */
+}
+
+.SistemasDeBusca.active input{
+    border-radius: 5px 5px 0 0;
+}
+
+.tegs {
+    display: flex;
+    margin-left: 8px;
+    color: gray;
+    font-size: 15px;
+}
+
+.tegs button {
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    padding: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #99cee6;
+    border-radius: 40px;
+    border: 1px solid #99cee631;
+    transition: 1s;
+}
+
+.tegs button:hover {
+    background: #99cee61e;
+}
+
+.tegs button.clicked {
+    font-size: 16px;
+    transform: scale(1.05);
+    border: none;
+    position: relative;
+    z-index: 1; /* Define a frente dos demais */
+}
+
+.sendoAplicado, .NOsendoAplicado{
+    display: flex;
+}
 
 
 /*###  Projetos  ###*/
