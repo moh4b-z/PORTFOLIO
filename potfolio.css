@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+main {
+    margin-bottom: 30px;
+}
+
 
 body {
-    background: #1b212b;
+    background: #1a1228;
     overflow-x: hidden; /* Impede que o conteúdo saia dos limites laterais da tela */
 }
 
@@ -34,13 +38,18 @@ a {
 
 /* Defina a paleta de cores */
 :root {
-    --cor-primaria: #99cee6;
-    --cor-secundaria: #375899;
+    --cor-primaria: #a9def7;
+    --cor-secundaria: #244992;
 }
 
-h1 {
+h1,h3 {
     font-size: 36px;
+    margin: 10px;
     animation: mudarCor 3s infinite;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 @keyframes mudarCor {
@@ -67,6 +76,7 @@ h1 {
   
 .comeco img {
     max-width: 100%;
+    margin-top: 20px;
 }
   
 .comeco .ancoras {
@@ -91,6 +101,7 @@ h1 {
 .ancoras a{
     display: flex;
     margin: 5px;
+    font-size: 20px;
 }
 
 
@@ -213,3 +224,67 @@ h1 {
 /*###  Projetos FIM  ###*/
 /*###  Projetos FIM  ###*/
 /*###  Projetos FIM  ###*/
+
+
+
+/*###  CARDS  ###*/
+/*###  CARDS  ###*/
+/*###  CARDS  ###*/
+/*###  CARDS  ###*/
+
+.CardProjetos{
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #99cee683;
+    max-width: 90vw;
+    
+}
+
+.CardsTipoWEB {
+    width: 300px;
+    height: 400px;
+    max-width: 300px;
+    max-height: 400px;
+    background: #00c3ff0c;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 2px solid #99cee6;
+    transition: 1s;
+}
+
+.CardsTipoWEB:hover {
+    transform: scale(1.05);
+}
+
+.CardsTipoWEB h5, p {
+    color: #bae0f1;
+}
+
+.CardsTipoWEB p, a {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.LinguagensProjetos img {
+    margin: 3px;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+}
+.IMGprojeto {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 12px;
+    border: 1px solid #aee3fc62;
+}
+
+/*###  CARDS FIM  ###*/
+/*###  CARDS FIM  ###*/
+/*###  CARDS FIM  ###*/
+/*###  CARDS FIM  ###*/
