@@ -13,7 +13,8 @@
     <header class="header">
 
         <nav id="nav">
-            
+            <div id="fogoCanvas"></div>
+            <!-- Alterei a classe para um ID para corresponder ao seletor no JavaScript -->
             <div class="comeco">
 
                 <img src="/Fotos/New Piskel (1).gif" alt="">
@@ -106,15 +107,36 @@
             <div class="SistemasDeBusca">
                 <input type="text" class="barra" placeholder="Pesquisar projetos">
 
-                <div class="tegs">
-                    tegs:
+                <div class="tags">
+                    tags:
+
                     <div class="sendoAplicado">
 
                     </div>
                     <div class="NOsendoAplicado">
-                        <button>Desenvolvimento Web</button>
-                        <button>Automatização de Servico</button>
-                        <button>Projetos com IA</button>
+
+                        <button class="Tags-text">Desenvolvimento Web</button>
+
+                        <button class="Tags-text">Automatização de Servico</button>
+
+                        <button class="Tags-text">Projetos com IA</button>
+
+                        <button class="Tags-linguagens">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                        </button>
+
+                        <button class="Tags-linguagens">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
+                        </button>
+
+                        <button class="Tags-linguagens">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                        </button>
+
+                        <button class="Tags-linguagens">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /> 
+                        </button>
+
                     </div>
                 </div>
             
@@ -151,6 +173,7 @@
 
     <script src="/cores.js"></script>
     <script src="/ButtonTegs.js"></script>
+    <script src="/LogicaDoFogo.js"></script>
 
 </body>
 </html>

@@ -36,6 +36,10 @@ a {
     margin: 2px;  
 }
 
+
+
+
+
 /* Adicione suas regras de estilo aqui */
 
 /* Defina a paleta de cores */
@@ -49,6 +53,7 @@ h1,h3, .tegs button.clicked {
     margin: 10px;
     animation: mudarCor 3s infinite;
 }
+
 
 h3 {
     font-size: 20px;
@@ -207,7 +212,7 @@ h3 {
 }
 
 .SistemasDeBusca {
-    background: #00152bc2;
+    background: transparent;
     padding: 4px;
     display: flex;
     align-items: center;
@@ -228,6 +233,7 @@ h3 {
 }
 
 .SistemasDeBusca {
+    margin-left: 20px;
     position: relative; /* Para definir um contexto de posicionamento */
     /* Restante do seu CSS existente */
 }
@@ -236,14 +242,14 @@ h3 {
     border-radius: 5px 5px 0 0;
 }
 
-.tegs {
+.tags {
     display: flex;
     margin-left: 8px;
     color: gray;
     font-size: 15px;
 }
 
-.tegs button {
+.tags .Tags-text {
     font-size: 16px;
     border: none;
     background: transparent;
@@ -253,14 +259,14 @@ h3 {
     color: #99cee6;
     border-radius: 40px;
     border: 1px solid #99cee631;
-    transition: 1s;
+    transition: 0.5s;
 }
 
-.tegs button:hover {
+.tags button:hover {
     background: #99cee61e;
 }
 
-.tegs button.clicked {
+.tags button.clicked {
     font-size: 16px;
     transform: scale(1.05);
     border: none;
@@ -272,6 +278,27 @@ h3 {
     display: flex;
 }
 
+.NOsendoAplicado .Tags-linguagens img {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.sendoAplicado .Tags-linguagens img {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.Tags-linguagens {
+    border: none;
+    background: transparent;
+    padding: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border: 1px solid #99cee631;
+    transition: 0.5s;
+}
 
 /*###  Projetos  ###*/
 /*###  Projetos  ###*/
@@ -280,7 +307,6 @@ h3 {
 
 #Projetos {
     margin-left: 30px;
-
 }
 
 #Projetos p{
@@ -335,12 +361,14 @@ h3 {
 
 .CardsTipoWEB h5, p {
     color: #bae0f1;
+    margin: 0;
 }
 
 .CardsTipoWEB p, a {
-    font-size: 16px;
-    margin-top: 5px;
+    font-size: 14px;
+    margin-top: 3px;
     margin-bottom: 5px;
+    margin-left: 0;
 }
 
 .LinguagensProjetos img {
@@ -349,6 +377,9 @@ h3 {
     width: 30px;
     height: 30px;
 }
+
+
+
 .IMGprojeto {
     margin-top: 8px;
     margin-bottom: 8px;
