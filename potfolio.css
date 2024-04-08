@@ -141,18 +141,24 @@ h3 {
 /*###  LIGUAGENS  ###*/
 /*###  LIGUAGENS  ###*/
 
+.Visão {
+    display: flex;
+}
+
 
 .liguagens {
     margin: 10px;
     background-color: transparent;
     border: 1px solid; 
     border-color: #5792df; 
-    position: absolute;
-    right: 0;
     color: white;
     padding: 10px;
     border-radius: 5px;
-    transition: 0.2s;
+    box-sizing: border-box;
+    transition: 0.3s;
+    vertical-align: top; /* Alinhar ao topo para evitar comportamento estranho */
+    width: 50%; /* Ou outra largura desejada */
+    display: inline-block;
 
 }
 
@@ -163,7 +169,7 @@ h3 {
 
 }
 
-.liguagens img {
+.liguagens img, ion-icon {
     margin: 5px;
     height: 30px;
     width: 30px;
@@ -191,11 +197,13 @@ h3 {
 
 #Sobre {
     margin-left: 30px;
+    margin-right: 100px;
+    
 }
 #Sobre p{
     color: aliceblue;
-    max-width: 600px; 
-    padding: 5px 20px; 
+    max-width: 1000px; 
+    padding: 5px 20px;
 }
 
 /*###  SOBRE FIM  ###*/

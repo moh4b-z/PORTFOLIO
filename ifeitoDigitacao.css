@@ -1,0 +1,56 @@
+.txt-ani {
+    display: flex;
+    position: relative;
+}
+
+.txt-ani .span {
+    margin-left: -5px;
+
+}
+
+.txt-ani span::before {
+    content: "";
+    position: absolute;
+    animation: palavras 15s infinite;
+}
+
+.txt-ani span::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    border-left: 2px solid;
+    margin-left: 3px;
+    animation: cursor 1.5s infinite;
+    opacity: 1;
+    /* Use calc() para calcular a largura */
+    width: calc(100% + 100px);
+}
+
+@keyframes cursor {
+    0%, 50% {
+        opacity: 0;
+    }
+}
+
+@keyframes palavras{
+    0%,20% {
+        content: " de Desenvolvimento Web";
+    }
+
+    21%,40% {
+        content: " de Automatização de Servico";
+    }
+
+    41%,60% {
+        content: " com IAs";
+    }
+
+    61%,80% {
+        content: " Mobiles";
+    }
+
+    80%,100% {
+        content: " de Jogos";
+    }
+
+}
