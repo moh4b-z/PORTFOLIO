@@ -1,34 +1,43 @@
 .txt-ani {
     display: flex;
-    position: relative;
 }
 
-.txt-ani .span {
+.txt-ani .span span {
     margin-left: -5px;
+    border-left: 2px solid;
+    position: relative;
 
 }
 
 .txt-ani span::before {
     content: "";
-    position: absolute;
     animation: palavras 15s infinite;
 }
 
 .txt-ani span::after {
-    position: absolute;
     content: "";
-    height: 100%;
+    position: absolute;
+    height: 36px;
     border-left: 2px solid;
     margin-left: 3px;
-    animation: cursor 1.5s infinite;
+    animation: cursor 1.5s infinite, digita 15s steps(15) infinite;
     opacity: 1;
     /* Use calc() para calcular a largura */
-    width: calc(100% + 100px);
+    width: calc(100% + 12px);
+}
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100% + 12px);
+    }
 }
 
 @keyframes cursor {
     0%, 50% {
-        opacity: 0;
+        border-left: 2px solid transparent;
     }
 }
 
