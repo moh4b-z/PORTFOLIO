@@ -176,6 +176,7 @@ h3 {
 }
 
 .list-liguagens a{
+    font-family: "Wellfleet";
     display: flex;
     align-items: center;
 
@@ -202,7 +203,7 @@ h3 {
 }
 #Sobre p{
     color: aliceblue;
-    max-width: 1000px; 
+    font-size: clamp(0.7em, 0.7em + 3vw, 1em);
     padding: 5px 20px;
 }
 
