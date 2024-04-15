@@ -1,0 +1,84 @@
+@media (max-width: 735px){
+    h1,h3, .tegs button.clicked {
+        font-size: 20px;
+        margin: 5px;
+        animation: mudarCor 3s infinite;
+    }
+    
+    
+    h3 {
+        font-size: 15px;
+    }
+    
+    @keyframes mudarCor {
+        0% {
+            color: var(--cor-primaria);
+        }
+        50% {
+            color: var(--cor-secundaria);
+        }
+        100% {
+            color: var(--cor-primaria);
+        }
+    }
+
+    .comeco .ancoras li {
+        margin: 0 10px;
+    }
+      
+    .ancoras {
+        margin: 3px;
+    }
+    
+    .ancoras a{
+        margin: 3px;
+        font-size: 15px;
+    }
+
+
+    .contatos ion-icon{
+        height: 20px;
+        width: 20px;
+        padding: 3px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .Visão {
+        display: block;
+    }
+
+    .liguagens {
+        margin: 20px;
+        margin-left: 20px;
+        padding: 10px;
+        vertical-align: top; /* Alinhar ao topo para evitar comportamento estranho */
+        width: 50%; /* Ou outra largura desejada */
+    }
+
+
+    .SistemasDeBusca {
+        padding: 6px;
+        display: block;
+    }
+
+
+    .tags {
+        display: flex;
+        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+        gap: 10px; /* Espaçamento entre os itens */
+        font-size: 15px;
+    }
+    
+    .NOsendoAplicado {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .tags button.clicked {
+        font-size: 12px;
+    }
+
+    
+}
