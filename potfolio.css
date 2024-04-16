@@ -197,6 +197,8 @@ h3 {
     
 }
 #Sobre p{
+    text-align: justify;
+    text-indent: 40px;
     color: aliceblue;
     font-size: clamp(0.7em, 0.7em + 3vw, 1em);
     padding: 5px 20px;
