@@ -5,7 +5,7 @@
 }
 
 main {
-    margin: 2vw;
+    margin: 1.5vw;
     margin-bottom: 30px;
 }
  button {
@@ -29,6 +29,9 @@ body, ul, li, p {
 a {
     text-decoration: none;
     color: aliceblue;
+}
+html {
+    scroll-behavior: smooth;
 }
 
 
@@ -154,7 +157,7 @@ h3 {
     box-sizing: border-box;
     transition: 0.3s;
     vertical-align: top; /* Alinhar ao topo para evitar comportamento estranho */
-    width: 50%; /* Ou outra largura desejada */
+    width: 100%; /* Ou outra largura desejada */
     display: inline-block;
 
 }
@@ -193,11 +196,6 @@ h3 {
 /*###  SOBRE  ###*/
 /*###  SOBRE  ###*/
 
-#Sobre {
-    margin-left: 30px;
-    margin-right: 0px;
-    
-}
 #Sobre p{
     text-align: justify;
     width: 90%;

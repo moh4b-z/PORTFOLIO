@@ -1,6 +1,12 @@
 @media (max-width: 735px){
+
+    main {
+        margin: 1vw;
+        margin-bottom: 20px;
+    }
+
     h1,h3, .tegs button.clicked {
-        font-size: 26px;
+        font-size: 24px;
         margin: 5px;
         animation: mudarCor 3s infinite;
     }
@@ -52,7 +58,6 @@
         margin-left: 20px;
         padding: 10px;
         vertical-align: top; /* Alinhar ao topo para evitar comportamento estranho */
-        width: 50%; /* Ou outra largura desejada */
     }
 
 

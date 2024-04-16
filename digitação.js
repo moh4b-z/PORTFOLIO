@@ -1,10 +1,10 @@
 const el = document.querySelector("#ifeitoDigitacao");
 const texts = [
-    "de Desenvolvimento Web",
-    "com IAs",
-    "de Automatização de Serviço",
-    "Mobiles",
-    "de Jogos"
+    " de Desenvolvimento Web",
+    " com IAs",
+    " de Automatização de Serviço",
+    " Mobiles",
+    " de Jogos"
 ];
 const intervalo = 200; // Intervalo entre a digitação de cada caractere
 const parada = 800;   // Tempo de pausa após completar a digitação de cada texto
