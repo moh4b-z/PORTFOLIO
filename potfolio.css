@@ -5,6 +5,7 @@
 }
 
 main {
+    margin: 2vw;
     margin-bottom: 30px;
 }
  button {
@@ -202,7 +203,7 @@ h3 {
     width: 90%;
     text-indent: 40px;
     color: aliceblue;
-    font-size: clamp(0.7em, 0.7em + 3vw, 1em);
+    font-size: clamp(10px, 13 + 3vw, 0.91em);
     padding: 5px 20px;
 }
 
