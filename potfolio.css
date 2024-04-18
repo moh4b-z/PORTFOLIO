@@ -338,6 +338,7 @@ h3 {
 /*###  CARDS  ###*/
 
 .CardProjetos{
+    flex-wrap: wrap;
     padding: 20px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -347,7 +348,7 @@ h3 {
     
 }
 
-.CardsTipoWEB {
+.Card {
     width: 300px;
     height: 400px;
     max-width: 300px;
@@ -360,20 +361,24 @@ h3 {
     transition: 1s;
 }
 
-.CardsTipoWEB:hover {
+.Card:hover {
     transform: scale(1.05);
 }
 
-.CardsTipoWEB h5, p {
+.Card h5, p {
     color: #bae0f1;
     margin: 0;
 }
 
-.CardsTipoWEB p, a {
+.Card p, a {
     font-size: 14px;
     margin-top: 3px;
     margin-bottom: 5px;
     margin-left: 0;
+}
+
+.Card p {
+    text-indent: 10%;
 }
 
 .LinguagensProjetos img {
