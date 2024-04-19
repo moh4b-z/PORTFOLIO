@@ -198,11 +198,11 @@ h3 {
 
 #Sobre p{
     text-align: justify;
-    width: 90%;
-    text-indent: 40px;
+    width: 96%;
+    text-indent: 35px;
     color: aliceblue;
     font-size: clamp(10px, 13 + 3vw, 0.91em);
-    padding: 5px 20px;
+    padding: 4px 10px;
 }
 
 /*###  SOBRE FIM  ###*/
