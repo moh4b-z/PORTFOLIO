@@ -198,11 +198,11 @@ h3 {
 
 #Sobre p{
     text-align: justify;
-    width: 96%;
-    text-indent: 35px;
+    width: 90%;
+    text-indent: 10px;
     color: aliceblue;
     font-size: clamp(10px, 13 + 3vw, 0.91em);
-    padding: 4px 10px;
+    padding: 5px 20px;
 }
 
 /*###  SOBRE FIM  ###*/
@@ -374,12 +374,14 @@ h3 {
 .Card p, a {
     font-size: 14px;
     margin-top: 3px;
-    margin-bottom: 5px;
-    margin-left: 0;
+    margin-bottom: 4px;
+    margin-left: 0px;
 }
 
 .Card p {
     text-indent: 10%;
+    text-align: justify;
+    width: 90%;
 }
 
 .LinguagensProjetos img {
