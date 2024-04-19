@@ -355,7 +355,7 @@ h3 {
     max-width: 300px;
     max-height: 400px;
     background: #00c3ff0c;
-    padding: 10px;
+    padding: 8px;
     margin: 10px;
     border-radius: 8px;
     border: 2px solid #99cee6;
@@ -380,8 +380,7 @@ h3 {
 
 .Card p {
     text-indent: 10%;
-    text-align: justify;
-    width: 90%;
+    width: 100%;
 }
 
 .LinguagensProjetos img {
