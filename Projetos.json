@@ -28,7 +28,11 @@
         "tags":[""],
         "Img":"/Fotos/futrua.png",
         "Link":"https://github.com/moh4b-z/A-arte_do_Fut_de_rua",
+<<<<<<< HEAD
         "Descrição":"Projeto feito para ajudar na pedagogia envolvendo a língua inglesa no SESI 077 Carapicuíba.",
+=======
+        "Descrição":"Projeto feito para ajudar na pedajogia envolvendo a língua inglesa no SESI 077 Carapicuíba.",
+>>>>>>> 2960a98475881e7f6fb674fe14cfa4bb4ec72b25
         "Linguagens": [
             "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
