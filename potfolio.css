@@ -355,13 +355,11 @@ h3 {
     max-width: 24%;
     max-height: 400px;
     background: #00c3ff0c;
-<<<<<<< HEAD
     padding: 10px;
     margin: 6px;
-=======
     padding: 8px;
     margin: 10px;
->>>>>>> 2960a98475881e7f6fb674fe14cfa4bb4ec72b25
+
     border-radius: 8px;
     border: 2px solid #99cee6;
     transition: 1s;
