@@ -1,4 +1,8 @@
 @media (max-width: 735px){
+    body {
+        background: #1a1228;
+        overflow-x: hidden; /* Impede que o conteúdo saia dos limites laterais da tela */
+    }
 
     main {
         margin: 1vw;

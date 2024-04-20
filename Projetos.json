@@ -3,8 +3,20 @@
         "Nome": "Site de venda de Livros",
         "tags":[""],
         "Img":"/Fotos/IMGteste.png",
-        "Link":"https://github.com/moh4b-z/site-de-livro",
+        "Link":"https://sitelivrointernacionas.netlify.app",
         "Descrição":"Desenvolvido para entregar uma experirncia multi nacional com a literatura.",
+        "Linguagens": [
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+        ]
+    },
+    {
+        "Nome": "Bolsa de valores",
+        "tags":[""],
+        "Img":"https://exchangenow.net/upload/como_funciona_a_bolsa_de_valores.jpg",
+        "Link":"https://github.com/moh4b-z/Bolsa-de-Valores_sesi",
+        "Descrição":"Projeto feito para ajudar na pedajogia envolvendo a matématica com a bolsa de valores no SESI 077 Carapicuíba.",
         "Linguagens": [
             "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
@@ -16,7 +28,7 @@
         "tags":[""],
         "Img":"/Fotos/futrua.png",
         "Link":"https://github.com/moh4b-z/A-arte_do_Fut_de_rua",
-        "Descrição":"Projeto feito para ajuda na pedajogia envolvendo a língua inglesa no SESI 077 Carapicuíba.",
+        "Descrição":"Projeto feito para ajudar na pedagogia envolvendo a língua inglesa no SESI 077 Carapicuíba.",
         "Linguagens": [
             "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
