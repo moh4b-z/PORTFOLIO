@@ -8,12 +8,12 @@ main {
     margin: 1.5vw;
     margin-bottom: 30px;
 }
- button {
+button {
     cursor: pointer;
  }
 
 body {
-    background: #1a1228;
+    background: #261a3a;
     overflow-x: hidden; /* Impede que o conteúdo saia dos limites laterais da tela */
 }
 
@@ -199,7 +199,7 @@ h3 {
 #Sobre p{
     text-align: justify;
     width: 90%;
-    text-indent: 10px;
+    text-indent: 40px;
     color: aliceblue;
     font-size: clamp(10px, 13 + 3vw, 0.91em);
     padding: 5px 20px;
@@ -310,9 +310,6 @@ h3 {
 /*###  Projetos  ###*/
 /*###  Projetos  ###*/
 
-#Projetos {
-    margin-left: 30px;
-}
 
 #Projetos p{
     color: aliceblue;
@@ -340,7 +337,7 @@ h3 {
 .CardProjetos{
     display: flex;
     flex-wrap: wrap;
-    padding: 18px 13px;
+    padding: 10px 5px;
     margin-top: 40px;
     margin-bottom: 20px;
     border-radius: 7px;
@@ -355,11 +352,10 @@ h3 {
     max-width: 24%;
     max-height: 400px;
     background: #00c3ff0c;
-    padding: 10px;
+    padding: 0px;
     margin: 6px;
     padding: 8px;
-    margin: 10px;
-
+    margin: 7px;
     border-radius: 8px;
     border: 2px solid #99cee6;
     transition: 1s;
