@@ -107,5 +107,9 @@
         text-indent: 40px;
         padding: 0 10px;
     }
+
+    .Card {
+        max-width: 300px;
+    }
     
 }
