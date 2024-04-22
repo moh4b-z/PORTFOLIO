@@ -17,7 +17,7 @@
     
     
     h3 {
-        font-size: 22px;
+        font-size: 20px;
     }
     
     @keyframes mudarCor {
@@ -63,6 +63,7 @@
         padding: 10px;
         vertical-align: top; /* Alinhar ao topo para evitar comportamento estranho */
         margin-right: 3vw;
+        width: 94%;
     }
 
 
@@ -112,4 +113,7 @@
         max-width: 300px;
     }
     
+    .CardProjetos{
+        max-width: 90vw;
+    }
 }
