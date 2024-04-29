@@ -28,7 +28,7 @@ body, ul, li, p {
 
 a {
     text-decoration: none;
-    color: aliceblue;
+    color: #ffffff;
 }
 html {
     scroll-behavior: smooth;
@@ -200,7 +200,7 @@ h3 {
     text-align: justify;
     width: 90%;
     text-indent: 40px;
-    color: aliceblue;
+    color: #ffffff;
     font-size: clamp(10px, 13 + 3vw, 0.91em);
     padding: 5px 20px;
 }
@@ -312,7 +312,7 @@ h3 {
 
 
 #Projetos p{
-    color: aliceblue;
+    color: #ffffff;
     max-width: 600px;
     padding: 5px 20px; 
 }
