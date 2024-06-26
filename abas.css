@@ -1,0 +1,58 @@
+#container {
+    width: 500px;
+    right: 150px;
+    padding: 5px;
+    
+}
+
+.tabs {
+    display: flex;
+    gap: 6px;
+}
+
+.tab-button {
+    width: 100%;
+    border: none;
+    color: aliceblue;
+    background: transparent;
+    border-radius: 0 8px 0 0;
+    padding: 3px;
+
+}
+
+.tab-button.active {
+    background-color: #1d0e36e8;
+    border: 1.5px solid #a9def7;
+}
+
+.tab-button:hover{
+    background-color: #1d0e3688;
+}
+
+.content {
+    display: none;
+    width: 400px;
+    right: 300px;
+}
+
+.content.show {
+    width: 400px;
+    right: 300px;
+    display: block;
+    gap: 1;
+    background-color: #1d0e36ef;
+    border-radius: 0 0 8px 8px;
+    border: 1.5px solid #a9def7;
+    padding: 8px;
+}
+
+
+.tabs-content{
+    width: 400px;
+    right: 300px;
+}
+
+.tabs-content img, .tabs-content ion-icon{
+    width: 30px;
+    right: 30px;
+}

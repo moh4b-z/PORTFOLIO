@@ -144,45 +144,6 @@ h3 {
     display: flex;
 }
 
-
-.liguagens {
-    margin: 10px;
-    margin-right: 15px;
-    background-color: transparent;
-    border: 1px solid; 
-    border-color: #5792df; 
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    transition: 0.3s;
-    vertical-align: top; /* Alinhar ao topo para evitar comportamento estranho */
-    width: 100%; /* Ou outra largura desejada */
-    display: inline-block;
-
-}
-
-.liguagens:hover {
-    box-shadow: 0px 0px 5px 4px #98cde6, inset 0px 0px 5px 4px #98cde6;
-    transform: scale(1.05);
- 
-
-}
-
-.liguagens img, ion-icon {
-    margin: 5px;
-    height: 30px;
-    width: 30px;
-}
-
-.list-liguagens a{
-    font-family: "Wellfleet";
-    display: flex;
-    align-items: center;
-
-}
-
-
 /*###  LIGUAGENS FIM  ###*/
 /*###  LIGUAGENS FIM  ###*/
 /*###  LIGUAGENS FIM  ###*/

@@ -57,14 +57,7 @@
         display: block;
     }
 
-    .liguagens {
-        margin: 20px;
-        margin-left: 20px;
-        padding: 10px;
-        vertical-align: top; /* Alinhar ao topo para evitar comportamento estranho */
-        margin-right: 3vw;
-        width: 94%;
-    }
+
 
 
     .SistemasDeBusca {

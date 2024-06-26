@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./potfolio.css"/>
     <link rel="stylesheet" href="./responsivo.css"/>
+    <link rel="stylesheet" href="./abas.css"/>
     <link rel="stylesheet" href="/Fuções para o visual do Portfolio/ifeitoDigitacao.css"/> 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -79,47 +80,66 @@
             </div>
 
 
-            <div class="liguagens">
-                <div>Tecnologias usadas</div>
+            <div id="container">
+                <div class="tabs">
+                    <button class="tab-button active" content-id="linguagens">
+                        Linguagens
+                    </button>
+                    <button class="tab-button" content-id="tecnologias">
+                        Tecnologias</button>
+                    <button class="tab-button" content-id="formacoes">
+                        Formações
+                    </button>
+                    <button class="tab-button" content-id="conhecimentos">
+                        Conhecimentos Complementares
+                    </button>
+                </div>
 
-                <ul class="list-liguagens">
+                <div class="tabs-content">
+                    <div class="content" id="linguagens">
+                        <li><a href="">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                            <span>Python</span>
+                        </a></li>
+    
+                        <li><a href="">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
+                            <span>Javascript</span>
+                        </a></li>
+    
+                        <li><a href="">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+                            <span>Java</span>
+                        </a></li>
+                    </div>
 
-                    <li><a href="">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-                        <span>Python</span>
-                    </a></li>
-
-                    <li><a href="">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
-                        <span>Javascript</span>
-                    </a></li>
-
-                    <li><a href="">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
-                        <span>Java</span>
-                    </a></li>
-
-                    <li><a href="">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-                        <span>CSS</span>
-                    </a></li>
-
-                    <li><a href="">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-                        <span>HTML</span>
-                    </a></li>
-
-                    <li><a href="">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-                        <span>GIT</span>
-                    </a></li>
-
-                    <li><a href="">
-                        <ion-icon name="logo-github"></ion-icon>
-                        <span>GitHub</span>
-                    </a></li>
-                    
-                </ul>
+                    <div class="content" id="tecnologias">
+                        <li><a href="">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                            <span>CSS</span>
+                        </a></li>
+    
+                        <li><a href="">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                            <span>HTML</span>
+                        </a></li>
+    
+                        <li><a href="">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                            <span>GIT</span>
+                        </a></li>
+    
+                        <li><a href="">
+                            <ion-icon name="logo-github"></ion-icon>
+                            <span>GitHub</span>
+                        </a></li>
+                    </div>
+                    <div class="content" id="formacoes">
+                        <li><a href=""><span>SEGURANCA_NO_TRABALHO</span></a></li>
+                    </div>
+                    <div class="content" id="conhecimentos"></div>
+                </div>
+               
             </div>
         </div>
 
@@ -181,6 +201,7 @@
         </div>
     </main>
 
+    <script src="/abas.js"></script>
     <script src="/Fuções para o visual do Portfolio/cores.js"></script>
     <script src="/ButtonTegs.js"></script>
     <script src="/Fuções para o visual do Portfolio/digitação.js"></script>
