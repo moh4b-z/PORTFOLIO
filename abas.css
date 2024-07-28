@@ -7,6 +7,8 @@
 
 .tabs {
     display: flex;
+    width: 400px;
+    right: 300px;
     gap: 6px;
 }
 
