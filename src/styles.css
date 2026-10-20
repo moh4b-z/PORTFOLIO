@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  color-scheme: dark;
+  --bg: #101114;
+  --bg-elevated: #181a1f;
+  --text: #f4f4f5;
+  --text-muted: #a1a1aa;
+  --border: #2c2e35;
+  --focus: #8eaaee;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f6f6f4;
+  --bg-elevated: #ffffff;
+  --text: #18181b;
+  --text-muted: #5c5c66;
+  --border: #e4e4e7;
+  --focus: #3451b2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    'Segoe UI',
+    system-ui,
+    -apple-system,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

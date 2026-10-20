@@ -1,11 +1,39 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt" data-theme="dark">
   <head>
     <meta charset="utf-8" />
-    <title>Portfolio</title>
+    <title>Portfólio</title>
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+      // Chaves iguais a LANGUAGE_STORAGE_KEY e THEME_STORAGE_KEY.
+      // Ao liberar inglês ou espanhol, inclua o código na lista abaixo.
+      (function () {
+        var root = document.documentElement;
+        var theme = 'dark';
+        var language = 'pt';
+        var availableLanguages = ['pt'];
+
+        try {
+          var storedTheme = localStorage.getItem('portfolio.theme');
+          if (storedTheme === 'light' || storedTheme === 'dark') {
+            theme = storedTheme;
+          } else if (storedTheme === 'system') {
+            theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+          }
+
+          var storedLanguage = localStorage.getItem('portfolio.language');
+          if (availableLanguages.indexOf(storedLanguage) !== -1) {
+            language = storedLanguage;
+          }
+        } catch (error) {}
+
+        root.dataset.theme = theme;
+        root.style.colorScheme = theme;
+        root.lang = language;
+      })();
+    </script>
   </head>
   <body>
     <app-root></app-root>
