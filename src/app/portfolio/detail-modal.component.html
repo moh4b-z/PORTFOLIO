@@ -1,0 +1,16 @@
+<dialog #dialog (close)="onDialogClose()" (click)="onDialogClick($event)">
+  @if (stop(); as current) {
+    <article>
+      @if (current.imageSrc) {
+        <img [src]="current.imageSrc" [alt]="i18n.t(current.titleKey)" />
+      } @else {
+        <div class="image-pending">{{ i18n.t('modal.imagePending') }}</div>
+      }
+
+      <p class="period">{{ i18n.t(current.periodKey) }}</p>
+      <h2>{{ i18n.t(current.titleKey) }}</h2>
+      <p>{{ i18n.t(current.summaryKey) }}</p>
+      <button type="button" (click)="requestClose()">{{ i18n.t('modal.close') }}</button>
+    </article>
+  }
+</dialog>

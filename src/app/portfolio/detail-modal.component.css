@@ -1,0 +1,66 @@
+dialog {
+  width: min(32rem, calc(100vw - 2rem));
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--bg-elevated);
+  color: var(--text);
+}
+
+dialog::backdrop {
+  background: color-mix(in srgb, #000 55%, transparent);
+}
+
+article {
+  padding: 1.25rem;
+}
+
+img,
+.image-pending {
+  display: block;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+  object-fit: cover;
+}
+
+.image-pending {
+  display: grid;
+  place-items: center;
+  border: 1px dashed var(--border);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.period,
+p {
+  color: var(--text-muted);
+}
+
+.period {
+  margin: 0 0 0.35rem;
+  font-size: 0.85rem;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}

@@ -1,0 +1,33 @@
+<app-timeline-scene [stops]="stops" [focus]="sceneFocus()" />
+
+<div class="page">
+  @for (section of sections; track section.id) {
+    @let sectionStops = stopsOf(section.id);
+    <section [attr.data-section]="section.id" [class.is-active]="activeSectionId() === section.id">
+      <div class="panel">
+        @if (section.id === 'intro') {
+          <h1>{{ i18n.t(section.titleKey) }}</h1>
+        } @else {
+          <h2>{{ i18n.t(section.titleKey) }}</h2>
+        }
+        <p>{{ i18n.t(section.leadKey) }}</p>
+
+        @if (sectionStops.length > 0) {
+          <ul class="stops">
+            @for (stop of sectionStops; track stop.id) {
+              <li class="stop" [class.is-current]="activeStopId() === stop.id">
+                <h3>{{ i18n.t(stop.titleKey) }}</h3>
+                <p class="period">{{ i18n.t(stop.periodKey) }}</p>
+                <button type="button" (click)="openStop(stop.id)">
+                  {{ i18n.t('modal.open') }}
+                </button>
+              </li>
+            }
+          </ul>
+        }
+      </div>
+    </section>
+  }
+</div>
+
+<app-detail-modal [stop]="openedStop()" (closed)="closeStop()" />
