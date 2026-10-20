@@ -1,6 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { effect, inject, Injectable, signal } from '@angular/core';
-import { readLocalStorage, writeLocalStorage } from '../storage';
+import { readLocalStorage, writeLocalStorage } from '../storage/storage';
 import { catalogs } from './catalogs';
 import {
   DEFAULT_LANGUAGE,

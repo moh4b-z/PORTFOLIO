@@ -8,12 +8,12 @@ import {
   inject,
   signal,
 } from '@angular/core';
-import { LanguageService } from '../core/i18n/language.service';
-import { DetailModal } from './detail-modal.component';
-import { focusOnStop, resolveScrollFocus } from './scene-focus';
-import { PORTFOLIO_SECTIONS, stopsForSection, TIMELINE_STOPS } from './timeline.data';
-import type { FocusFrame, SectionId, SectionRect, TimelineStop } from './timeline.model';
-import { TimelineSceneComponent } from './timeline-scene.component';
+import { LanguageService } from '../../../core/i18n/language.service';
+import { PORTFOLIO_SECTIONS, stopsForSection, TIMELINE_STOPS } from '../../data/timeline.data';
+import type { FocusFrame, SectionId, SectionRect, TimelineStop } from '../../models/timeline.model';
+import { focusOnStop, resolveScrollFocus } from '../../scene/scene-focus';
+import { DetailModal } from '../../components/detail-modal/detail-modal.component';
+import { TimelineSceneComponent } from '../../components/timeline-scene/timeline-scene.component';
 
 @Component({
   selector: 'app-portfolio-page',

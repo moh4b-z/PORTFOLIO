@@ -1,5 +1,5 @@
-import { TIMELINE_STOPS } from './timeline.data';
-import type { PortfolioSection, SectionRect, TimelineStop } from './timeline.model';
+import { TIMELINE_STOPS } from '../data/timeline.data';
+import type { PortfolioSection, SectionRect, TimelineStop } from '../models/timeline.model';
 import {
   advanceAngle,
   IDLE_SPIN_RADIANS_PER_SECOND,

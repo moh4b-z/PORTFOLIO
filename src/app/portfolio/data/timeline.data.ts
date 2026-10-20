@@ -1,8 +1,8 @@
-import type { PortfolioSection, TimelineStop } from './timeline.model';
+import type { PortfolioSection, TimelineStop } from '../models/timeline.model';
 
 /**
  * Seções da página e pontos da volta 3D.
- * Para incluir um local, acrescente o texto em `locales/pt.ts` e um item em `TIMELINE_STOPS`.
+ * Para incluir um local, acrescente o texto em `core/i18n/locales/pt.ts` e um item em `TIMELINE_STOPS`.
  * `imageSrc` alimenta o pin e o modal quando a imagem existir.
  */
 export const PORTFOLIO_SECTIONS: readonly PortfolioSection[] = [

@@ -8,7 +8,7 @@ import {
   WebGLRenderer,
 } from 'three';
 import { advanceAngle, stopAngle, type AngleState } from './scene-focus';
-import type { SceneFocus } from './timeline.model';
+import type { SceneFocus } from '../models/timeline.model';
 
 /** Distância dos pins até o centro. O modelo entra no mesmo grupo e gira com eles. */
 export const TIMELINE_RADIUS = 2;

@@ -1,4 +1,4 @@
-import type { TranslationKey } from '../core/i18n/translate';
+import type { TranslationKey } from '../../core/i18n/translate';
 
 export const SECTION_IDS = ['intro', 'education', 'companies', 'contact'] as const;
 

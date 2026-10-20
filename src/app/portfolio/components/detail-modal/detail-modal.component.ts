@@ -1,6 +1,6 @@
 import { Component, effect, ElementRef, inject, input, output, viewChild } from '@angular/core';
-import { LanguageService } from '../core/i18n/language.service';
-import type { TimelineStop } from './timeline.model';
+import { LanguageService } from '../../../core/i18n/language.service';
+import type { TimelineStop } from '../../models/timeline.model';
 
 @Component({
   selector: 'app-detail-modal',

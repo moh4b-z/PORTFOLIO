@@ -1,6 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { computed, DestroyRef, effect, inject, Injectable, signal } from '@angular/core';
-import { readLocalStorage, writeLocalStorage } from '../storage';
+import { readLocalStorage, writeLocalStorage } from '../storage/storage';
 import {
   COLOR_SCHEME_QUERY,
   DEFAULT_THEME_PREFERENCE,

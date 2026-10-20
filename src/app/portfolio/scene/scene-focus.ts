@@ -1,4 +1,4 @@
-import type { FocusFrame, PortfolioSection, SectionRect, TimelineStop } from './timeline.model';
+import type { FocusFrame, PortfolioSection, SectionRect, TimelineStop } from '../models/timeline.model';
 
 const FULL_TURN = Math.PI * 2;
 const VIEWPORT_ANCHOR = 0.4;

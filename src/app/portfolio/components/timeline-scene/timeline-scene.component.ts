@@ -8,8 +8,8 @@ import {
   input,
   viewChild,
 } from '@angular/core';
-import type { SceneFocus, TimelineStop } from './timeline.model';
-import { TimelineScene } from './timeline-scene';
+import type { SceneFocus, TimelineStop } from '../../models/timeline.model';
+import { TimelineScene } from '../../scene/timeline-scene';
 
 @Component({
   selector: 'app-timeline-scene',
